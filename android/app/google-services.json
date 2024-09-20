@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "124351345456",
+    "project_id": "gd-building",
+    "storage_bucket": "gd-building.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124351345456:android:8efe53bb5f783b0ecf4ef5",
+        "android_client_info": {
+          "package_name": "com.bwsoft.red"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwa6RxIkgY0uR9PgceeAXbzc4lAaqwlRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

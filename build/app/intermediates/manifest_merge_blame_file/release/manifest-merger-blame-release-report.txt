@@ -1,0 +1,170 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bwsoft.red"
+4    android:versionCode="8"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:3:5-79
+11-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:3:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:4:5-81
+12-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:4:22-78
+13    <!-- Include required permissions for Google Maps API to run. -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->[com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+15-->[com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:22-64
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+20
+21    <queries>
+21-->[com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+22
+23        <!-- Needs to be explicitly declared on Android R+ -->
+24        <package android:name="com.google.android.apps.maps" />
+24-->[com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+24-->[com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+25    </queries>
+26
+27    <permission
+27-->[androidx.core:core:1.9.0] /Users/apple/.gradle/caches/transforms-3/82546ab4767d1df2b6d62dc3a615a8f7/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+28        android:name="com.bwsoft.red.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.9.0] /Users/apple/.gradle/caches/transforms-3/82546ab4767d1df2b6d62dc3a615a8f7/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.9.0] /Users/apple/.gradle/caches/transforms-3/82546ab4767d1df2b6d62dc3a615a8f7/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.bwsoft.red.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> -->
+31-->[androidx.core:core:1.9.0] /Users/apple/.gradle/caches/transforms-3/82546ab4767d1df2b6d62dc3a615a8f7/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.9.0] /Users/apple/.gradle/caches/transforms-3/82546ab4767d1df2b6d62dc3a615a8f7/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+32    <application
+33        android:name="android.app.Application"
+33-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:8:9-42
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.9.0] /Users/apple/.gradle/caches/transforms-3/82546ab4767d1df2b6d62dc3a615a8f7/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+35        android:icon="@mipmap/ic_launcher"
+35-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:9:9-43
+36        android:label="Fenice Shield"
+36-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:7:9-38
+37        android:requestLegacyExternalStorage="true" >
+37-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:10:9-52
+38        <meta-data
+38-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:11:9-13:66
+39            android:name="com.google.android.geo.API_KEY"
+39-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:12:9-54
+40            android:value="AIzaSyBJrKJW-HxjEbb3Y-uhwu1biSSPMuYHlSY" />
+40-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:13:9-64
+41
+42        <activity
+42-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:14:9-34:20
+43            android:name="com.bwsoft.red.MainActivity"
+43-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:15:13-41
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:19:13-163
+45            android:exported="true"
+45-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:16:13-36
+46            android:hardwareAccelerated="true"
+46-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:20:13-47
+47            android:launchMode="singleTop"
+47-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:17:13-43
+48            android:theme="@style/LaunchTheme"
+48-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:18:13-47
+49            android:windowSoftInputMode="adjustResize" >
+49-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:21:13-55
+50
+51            <!--
+52                 Specifies an Android theme to apply to this Activity as soon as
+53                 the Android process has started. This theme is visible to the user
+54                 while the Flutter UI initializes. After that, this theme continues
+55                 to determine the Window background behind the Flutter UI.
+56            -->
+57            <meta-data
+57-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:26:13-29:17
+58                android:name="io.flutter.embedding.android.NormalTheme"
+58-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:27:15-70
+59                android:resource="@style/NormalTheme" />
+59-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:28:15-52
+60
+61            <intent-filter>
+61-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:30:13-33:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:31:17-68
+62-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:31:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:32:17-76
+64-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:32:27-74
+65            </intent-filter>
+66        </activity>
+67        <!--
+68             Don't delete the meta-data below.
+69             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+70        -->
+71        <meta-data
+71-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:37:9-39:33
+72            android:name="flutterEmbedding"
+72-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:38:13-44
+73            android:value="2" />
+73-->/Users/apple/Documents/Projects/red/android/app/src/main/AndroidManifest.xml:39:13-30
+74
+75        <service
+75-->[:geolocator_android] /Users/apple/Documents/Projects/red/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:56
+76            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+76-->[:geolocator_android] /Users/apple/Documents/Projects/red/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
+77            android:enabled="true"
+77-->[:geolocator_android] /Users/apple/Documents/Projects/red/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-35
+78            android:exported="false"
+78-->[:geolocator_android] /Users/apple/Documents/Projects/red/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+79            android:foregroundServiceType="location" />
+79-->[:geolocator_android] /Users/apple/Documents/Projects/red/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-53
+80
+81        <uses-library
+81-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+82            android:name="androidx.window.extensions"
+82-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+83            android:required="false" />
+83-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+84        <uses-library
+84-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+85            android:name="androidx.window.sidecar"
+85-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+86            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+86-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+87        <uses-library
+87-->[com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+88            android:name="org.apache.http.legacy"
+88-->[com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+89            android:required="false" />
+89-->[com.google.android.gms:play-services-maps:18.1.0] /Users/apple/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+90
+91        <activity
+91-->[com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-3/ddc9a4db81e88e635fc48d64affdecc6/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+92            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+92-->[com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-3/ddc9a4db81e88e635fc48d64affdecc6/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+93            android:exported="false"
+93-->[com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-3/ddc9a4db81e88e635fc48d64affdecc6/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+94-->[com.google.android.gms:play-services-base:18.1.0] /Users/apple/.gradle/caches/transforms-3/ddc9a4db81e88e635fc48d64affdecc6/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+95
+96        <meta-data
+96-->[com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-3/83770efba2c122ac4d7bf3f6e3fc9396/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+97            android:name="com.google.android.gms.version"
+97-->[com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-3/83770efba2c122ac4d7bf3f6e3fc9396/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+98            android:value="@integer/google_play_services_version" />
+98-->[com.google.android.gms:play-services-basement:18.1.0] /Users/apple/.gradle/caches/transforms-3/83770efba2c122ac4d7bf3f6e3fc9396/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+99    </application>
+100
+101</manifest>

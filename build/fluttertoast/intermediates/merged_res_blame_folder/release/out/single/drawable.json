@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/apple/Documents/Projects/red/build/fluttertoast/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/Projects/red/build/fluttertoast/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/Projects/red/build/fluttertoast/intermediates/merged_res/release/drawable/corner.xml",
+        "source": "/Users/apple/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.2.5/android/src/main/res/drawable/corner.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/Projects/red/build/fluttertoast/intermediates/merged_res/release/drawable/toast_bg.xml",
+        "source": "/Users/apple/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.2.5/android/src/main/res/drawable/toast_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/Projects/red/build/fluttertoast/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/Projects/red/build/fluttertoast/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    }
+]

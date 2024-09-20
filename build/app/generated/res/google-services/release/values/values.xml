@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">124351345456</string>
+    <string name="google_api_key" translatable="false">AIzaSyBwa6RxIkgY0uR9PgceeAXbzc4lAaqwlRw</string>
+    <string name="google_app_id" translatable="false">1:124351345456:android:8efe53bb5f783b0ecf4ef5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBwa6RxIkgY0uR9PgceeAXbzc4lAaqwlRw</string>
+    <string name="google_storage_bucket" translatable="false">gd-building.appspot.com</string>
+    <string name="project_id" translatable="false">gd-building</string>
+</resources>

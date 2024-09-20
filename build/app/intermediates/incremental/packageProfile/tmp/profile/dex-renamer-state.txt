@@ -1,0 +1,4 @@
+#Thu Sep 12 10:45:40 IST 2024
+base.0=/Users/apple/Documents/Projects/red/build/app/intermediates/dex/profile/mergeDexProfile/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
